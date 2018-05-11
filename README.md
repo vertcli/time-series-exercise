@@ -1,5 +1,9 @@
+### Authorship:
+
+Original code from **[Jie Zhang](https://github.com/jiegzhan/time-series-forecasting-rnn-tensorflow)**. Thanks him all this work. Any bugs are my fault.
+
 ### Highlight:
-- This is a **Time Series Forecasting** problem. Original code from **[Jie Zhang](https://github.com/jiegzhan/time-series-forecasting-rnn-tensorflow)**. Thanks him all this work. Any bugs are my fault
+- This is a **Time Series Forecasting** problem.
 - The purpose of this project is to **Forecast next timestamp** given a sequence of history values.
 - This module was built with **Recurrent Neural Network (RNN)** on top of **[Tensorflow](https://github.com/tensorflow/tensorflow)** and **[Keras](https://github.com/keras-team/keras)**.
 
@@ -30,6 +34,17 @@
 
 - Output: **the value on next timestamp**
   - 2018-01-01,678.5
+
+### Docker configuration:
+
+Run the following commands 
+
+`sudo docker build -t exercise-datascience .`
+
+`sudo docker run -d --rm -p 8888:8888 -v /home/{username}:/home/jovyan/work  --name jupyter-exercise exercise-datascience start-notebook.sh --NotebookApp.password='sha1:e478941e6ada:a19a170ad511823060de4868b2ff322c297add39'`
+
+**NOTE:** password to access this notebook is **datascience**
+
 
 ### Reference:
 - [Time Series Forecasting with the Long Short-Term Memory Network in Python](https://machinelearningmastery.com/time-series-forecasting-long-short-term-memory-network-python/)
