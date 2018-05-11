@@ -1,5 +1,5 @@
 ### Highlight:
-- This is a **Time Series Forecasting** problem.
+- This is a **Time Series Forecasting** problem. Original code from **[Jie Zhang](https://github.com/jiegzhan/time-series-forecasting-rnn-tensorflow)**. Thanks him all this work. Any bugs are my fault
 - The purpose of this project is to **Forecast next timestamp** given a sequence of history values.
 - This module was built with **Recurrent Neural Network (RNN)** on top of **[Tensorflow](https://github.com/tensorflow/tensorflow)** and **[Keras](https://github.com/keras-team/keras)**.
 
@@ -30,10 +30,6 @@
 
 - Output: **the value on next timestamp**
   - 2018-01-01,678.5
-
-### Train & Predict:
-- Example 1: ```python3 train_predict.py ./data/sales.csv ./training_config.json```
-- Example 2: ```python3 train_predict.py ./data/daily-minimum-temperatures-in-me.csv ./training_config.json ```
 
 ### Reference:
 - [Time Series Forecasting with the Long Short-Term Memory Network in Python](https://machinelearningmastery.com/time-series-forecasting-long-short-term-memory-network-python/)
